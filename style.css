@@ -113,3 +113,18 @@ main{
     font-size: 1rem;
 
 }
+
+@media(min-width: 100px){
+    header{
+        background: none;
+        justify-content: flex-start;
+    }
+    header img{
+        width:10rem ;
+        padding-inline: 7rem;
+    }
+    main{
+        padding-inline: 7rem;
+
+    }
+}
