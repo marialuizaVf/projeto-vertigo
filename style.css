@@ -15,7 +15,7 @@
 }
 
 header{
-    background-image:url(./img/bg-mobel.png) ;
+    background-image:url(./img/img.svg) ;
     background-size: cover;
     height: 8.375rem;
     display: flex;
@@ -117,21 +117,24 @@ main{
     display: none;
 }
 
-@media(min-width: 100px){
+@media(min-width: 1000px){
     body{
         display: flex;
     }
     header{
         background: none;
         justify-content: flex-start;
+        margin:2.5rem 7rem 7rem ;
+        height: fit-content;
     }
     header img{
         width:10rem ;
         padding-inline: 7rem;
     }
     main{
-        padding-inline: 7rem;
-
+        margin-inline:  7rem;
+        max-width: 24rem;
+        padding: 0;
     }
     .conteudo{
         width: 100%;
